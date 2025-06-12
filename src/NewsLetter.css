@@ -1,0 +1,35 @@
+.container
+{
+    border: solid 2px blueviolet;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+input
+{
+    text-align: center;
+}
+
+button
+{
+    color: white;
+    background-color: blueviolet;
+}
