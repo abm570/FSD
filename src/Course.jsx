@@ -15,7 +15,7 @@ class Course extends React.Component
   }
 }
 
-Ex4.propTypes = {
+Course.propTypes = {
     title:PropTypes.string.isRequired,
     duration:PropTypes.number.isRequired,
     name:PropTypes.string.isRequired,
